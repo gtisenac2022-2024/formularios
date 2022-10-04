@@ -10,33 +10,32 @@
 <body>
     <form >
         <fieldset style="border-width: 5px; border-color: black; width: 300px;">
-        <label>Nome: </label>
-        <input type="text"> 
+        <label for="name">Nome: </label>
+        <input type="text" id="name"> 
         <br>
-        <label>Data de Nascimento:</label>
-        <input type="date"> 
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" id="date"> 
         <br>
         <label>Sexo:</label>
         <input type="radio" id="masculino" name="sexo" value="masc"> 
-        <label>Masc</label>
+        <label for="masculino">Masc</label>
         <input type="radio" id="feminino" name="sexo" value="fem">
-        <label>Fem</label>
+        <label for="feminino">Fem</label>
         <input type="radio" id="prefiro_nao_informar" name="sexo" value="prefiro_nao_informar">
-        <label>Prefiro não informar</label>
+        <label for="prefiro_nao_informar">Prefiro não informar</label>
         <br>
         <label>Endereço: </label>
-        <input type="text"> 
         <br>
-        <label>Logradouro:</label>
-        <input type="text">
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro">
         <br>
-        <label>Bairro:</label>
-        <input type="text"> 
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro"> 
         <br>
-        <label>Cidade:</label>
-        <input type="text">
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade">
         <br>
-        <label>UF:</label>
+        <label for="uf">UF:</label>
         <select name="cidade" id="uf">
             <option value="df">DF</option>
             <option value="go">GO</option>
@@ -44,11 +43,11 @@
             <option value="to">TO</option>
           </select>
         <br>
-        <label>Email:</label>
-        <input type="text"> 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> 
         <br>
-        <label>Telefone:</label>
-        <input type="phone" placeholder="(XX) XXXXX-XXXX"> 
+        <label for="phone">Telefone:</label>
+        <input type="phone" id="phone" placeholder="(XX) XXXXX-XXXX"> 
         </input>
         <br>
         <button class="button button1">Limpar</button>
