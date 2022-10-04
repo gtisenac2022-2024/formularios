@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    width: 940px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{text-align: center;}
+
+.container .p-info{
+    display: inline-block;
+}
+
+.h1{
+    padding: 7px 10px;
+}
+
+.p-info{
+    padding: 0px 10px;
+    margin-bottom: 2em;
+}
+
+.list .question{font-weight: bold;}
+
+.list{list-style-type: lower-latin;}
+.sublist{
+    font-weight: 300;
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 5px;
+}
