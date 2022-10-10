@@ -38,3 +38,18 @@ a{
     margin-left: 20px;
     padding: 5px;
 }
+a{
+    color: #fff;
+    font-weight: 700;
+}
+
+button{
+    background-color: #121212;
+    padding: 9px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+button:hover{
+background-color: #202020;
+}
