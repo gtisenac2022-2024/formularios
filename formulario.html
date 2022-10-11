@@ -5,54 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Formulário</title>
-    <h1>Formulário</h1>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form >
-        <fieldset style="border-width: 5px; border-color: black; width: 320px;">
-        <label for="name">Nome: </label>
-        <input type="text" id="name"> 
-        <br>
-        <label for="date">Data de Nascimento:</label>
-        <input type="date" id="date"> 
-        <br>
-        <label>Sexo:</label>
-        <input type="radio" id="masculino" name="sexo" value="masc"> 
-        <label for="masculino">Masc</label>
-        <input type="radio" id="feminino" name="sexo" value="fem">
-        <label for="feminino">Fem</label>
-        <input type="radio" id="prefiro_nao_informar" name="sexo" value="prefiro_nao_informar">
-        <label for="prefiro_nao_informar">Prefiro não informar</label>
-        <br>
-        <label>Endereço: </label>
-        <br>
-        <label for="logradouro">Logradouro:</label>
-        <input type="text" id="logradouro">
-        <br>
-        <label for="bairro">Bairro:</label>
-        <input type="text" id="bairro"> 
-        <br>
-        <label for="cidade">Cidade:</label>
-        <input type="text" id="cidade">
-        <br>
-        <label for="uf">UF:</label>
-        <select name="cidade" id="uf">
-            <option value="df">DF</option>
-            <option value="go">GO</option>
-            <option value="mg">MG</option>
-            <option value="to">TO</option>
-          </select>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"> 
-        <br>
-        <label for="phone">Telefone:</label>
-        <input type="phone" id="phone" placeholder="(XX) XXXXX-XXXX"> 
-        </input>
-        <br>
-        <button class="button button1">Limpar</button>
-            <button class="button button2">Enviar</button>
-        </fieldset>
-    </form>
+    <main>
+        <div class="container">
+            <h1 class="h1">Formulário</h1>
+            <a href="./index.html"><button class="btn">VOLTAR PARA PÁGINA INICIAL</button></a>
+        </div>
+        <div class="form-field">
+            <form>
+                <fieldset class="form">
+                <legend style="padding: 5px;">Informações Pessoais</legend>
+                <label class="label" for="name">Nome:</label>
+                <input type="text" id="name"> 
+                <br>
+                <label class="label" for="date">Data de Nascimento:</label>
+                <input type="date" id="date">
+                <br>
+                <label class="label">Sexo:</label>
+                <input type="radio" id="masculino" name="sexo" value="masc">
+                <label for="masculino">Masc</label>
+                <input type="radio" id="feminino" name="sexo" value="fem">
+                <label for="feminino">Fem</label>
+                <input type="radio" id="prefiro_nao_informar" name="sexo" value="prefiro_nao_informar">
+                <label for="prefiro_nao_informar">Prefiro não informar</label>
+                <br>
+                <label>Endereço:</label>
+                <br>
+                <label class="label" for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro">
+                <br>
+                <label class="label" for="bairro">Bairro:</label>
+                <input type="text" id="bairro"> 
+                <br>
+                <label class="label" for="cidade">Cidade:</label>
+                <input type="text" id="cidade">
+                <br>
+                <label class="label" for="uf">UF:</label>
+                <select name="cidade" id="uf">
+                    <option value="df">DF</option>
+                    <option value="go">GO</option>
+                    <option value="mg">MG</option>
+                    <option value="to">TO</option>
+                </select>
+                <br>
+                <label class="label" for="email">Email:</label>
+                <input type="email" id="email" name="email"> 
+                <br>
+                <label class="label" for="phone">Telefone:</label>
+                <input type="phone" id="phone" placeholder="(XX) XXXXX-XXXX"> 
+                <br>
+                <button class="button button1">Limpar</button>
+                    <button class="button button2">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
